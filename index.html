@@ -946,7 +946,7 @@
     <div
         x-data="{
         activeImage: 1,
-        amountOfImages: 4,
+        amountOfImages: 5,
         loop() {
             setInterval(() => { this.activeImage = this.activeImage === this.amountOfImages ? 1 : this.activeImage + 1 }, 5000)
         },
@@ -968,7 +968,7 @@
             
                 <img
                     class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/f7f7e099-2b50-4c01-be9e-265f3e0f01a7.jpeg"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/418fe70f-b33c-4100-9b53-258e9bcdd7fe.jpeg"
                     alt="Pressure Washing company Best Guys Pressure Washing in Boca Raton, FL"
                 />
             
@@ -987,7 +987,7 @@
             
                 <img
                     class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2a1e8c1f-45b7-493c-be0a-0c02ce8336c0.png"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/937efad8-9ed7-4359-8818-6a214d7d369d.png"
                     alt="Pressure Washing company Best Guys Pressure Washing in Boca Raton, FL"
                 />
             
@@ -1006,7 +1006,7 @@
             
                 <img
                     class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/1418721d-5d3a-4e9b-9508-4a589d229839.jpeg"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9d9ddcfb-1904-4f19-82af-244506a3eb20.jpeg"
                     alt="Pressure Washing company Best Guys Pressure Washing in Boca Raton, FL"
                 />
             
@@ -1025,7 +1025,26 @@
             
                 <img
                     class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/b19a971d-97fe-4480-bfd8-ba53a3f3c6ee.jpeg"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2a1e8c1f-45b7-493c-be0a-0c02ce8336c0.png"
+                    alt="Pressure Washing company Best Guys Pressure Washing in Boca Raton, FL"
+                />
+            
+        </div>
+        
+        <div
+            class="absolute inset-0"
+            x-show="activeImage === 5"
+            x-transition:enter="transition duration-1000"
+            x-transition:enter-start="transform translate-x-full"
+            x-transition:enter-end="transform translate-x-0"
+            x-transition:leave="transition duration-1000"
+            x-transition:leave-start="transform"
+            x-transition:leave-end="transform -translate-x-full"
+        >
+            
+                <img
+                    class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/1418721d-5d3a-4e9b-9508-4a589d229839.jpeg"
                     alt="Pressure Washing company Best Guys Pressure Washing in Boca Raton, FL"
                 />
             
